@@ -1,0 +1,182 @@
+{
+  "author": {
+    "email": "mis.dip@ddc.mail.go.th",
+    "name": "นายพานนท์ ศรีสุวรรณ"
+  },
+  "description": "ข้อมูลการบูรณาการข้อมูลผู้เสียชีวิตจากอุบัติเหตุทางถนน (3 ฐาน) เป็นข้อมูลที่ใช้เป็นฐานอ้างอิงจำนวนผู้เสียชีวิตจากอุบัติเหตุทางถนนของประเทศไทย ที่ได้รับการอนุมัติจากมติที่ประชุมของคณะกรรมนโยบายการป้องกันและลดอุบัติเหตุทางถนนแห่งชาติ ครั้งที่ 1/2561 เมื่อวันศุกร์ที่ 23 มีนาคม 2561 เวลา 10:00 น. ซึ่งมีจุดเริ่มต้นจากที่มติคณะรัฐมนตรีเมื่อวันที่ 29 มิถุนายน 2553 การกำหนดให้ปี พ.ศ. 2554 - 2563 เป็นทศวรรษแห่งความปลอดภัยทางถนน และมีการออกระเบียบสำนักนายกรัฐมนตรี ว่าด้วยการป้องกันและลดอุบัติเหตุ พ.ศ. 2554  ให้มีการจัดทำสถิติอุบัติเหตุทางถนน และวิเคราะห์ประเมินสถานการณ์ และมีการแต่งตั้งคณะอนุกรรมการด้านการบริหารจัดการและติดตามประเมินผล ให้รับผิดชอบการจัดทำข้อมูลอุบัติเหตุทางถนนให้เป็นเอกภาพ ประกอบกับองค์การอนามัยโลกได้รายงานสถานการณ์และจำนวนผู้เสียชีวิตของประเทศไทยที่มาจากการประมาณการในปี 2553 จำนวน 26,312 ราย ซึ่งมีความคลาดเคลื่อนกับจำนวนผู้เสียชีวิตจำนวนมาก ประเทศไทยรายงานจำนวนผู้เสียชีวิตโดยใช้ข้อมูลใบมรณบัตรและหนังสือรับรองการตายมีจำนวนเพียง 13,766 ราย จึงเกิดการศึกษาโดยมีวัตถุประสงค์เพื่อรวบรวม ตรวจสอบจำนวนผู้เสียชีวิตจากอุบัติเหตุทางถนนของประเทศไทยว่ามีจำนวนเท่าไร  ",
+  "keywords": [
+    "data",
+    "deathcert",
+    "e-claim",
+    "police",
+    "ข้อมูล 3 ฐาน",
+    "ผู้เสียชีวิต",
+    "อุบัติเหตุทางถนน"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "rtddi",
+  "resources": [
+    {
+      "description": "ข้อมูลล่าสุด 30 มิถุนายน 2564",
+      "format": "XLSX",
+      "name": "kh-muulphuuesiiychiiwitcchaak-ubatiehtuthaangthnn-cchaakrabbbuurnaakaarkh-muulkaartaaycchaak-ubatiehtuthaangthnn-pii-54-63",
+      "path": "kh-muulphuuesiiychiiwitcchaak-ubatiehtuthaangthnn-cchaakrabbbuurnaakaarkh-muulkaartaaycchaak-ubatiehtuthaangthnn-pii-54-63.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "number"
+          },
+          {
+            "name": "DEAD_YEAR(Budha)",
+            "type": "number"
+          },
+          {
+            "name": "DEAD_YEAR",
+            "type": "number"
+          },
+          {
+            "name": "Age",
+            "type": "string"
+          },
+          {
+            "name": "Sex",
+            "type": "number"
+          },
+          {
+            "name": "BirthYear",
+            "type": "string"
+          },
+          {
+            "name": "NationalityId",
+            "type": "number"
+          },
+          {
+            "name": "Tumbol",
+            "type": "string"
+          },
+          {
+            "name": "District",
+            "type": "string"
+          },
+          {
+            "name": "Province",
+            "type": "string"
+          },
+          {
+            "name": "RiskHelmet",
+            "type": "string"
+          },
+          {
+            "name": "RiskSafetyBelt",
+            "type": "string"
+          },
+          {
+            "name": "DeadDate",
+            "type": "datetime"
+          },
+          {
+            "name": "DateRec",
+            "type": "datetime"
+          },
+          {
+            "name": "TimeRec",
+            "type": "string"
+          },
+          {
+            "name": "AccSubDist",
+            "type": "string"
+          },
+          {
+            "name": "AccDist",
+            "type": "string"
+          },
+          {
+            "name": "AccProv",
+            "type": "string"
+          },
+          {
+            "name": "AccLat",
+            "type": "number"
+          },
+          {
+            "name": "Acclong",
+            "type": "number"
+          },
+          {
+            "name": "ICD-10",
+            "type": "string"
+          },
+          {
+            "name": "Vehicle",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/f5804870-7dc2-42df-86f3-769d6cc2ae23/resource/be60ddda-66cf-4d62-8815-63eb5941921a/download/tbl_rtddi_for_opendata.xlsx",
+          "title": "ข้อมูลผู้เสียชีวิตจากอุบัติเหตุทางถนน จากระบบบูรณาการข้อมูลการตายจากอุบัติเหตุทางถนน ปี 54-63"
+        }
+      ],
+      "title": "ข้อมูลผู้เสียชีวิตจากอุบัติเหตุทางถนน จากระบบบูรณาการข้อมูลการตายจากอุบัติเหตุทางถนน ปี 54-63"
+    },
+    {
+      "format": "XLSX",
+      "name": "data-dictionary-kh-muul-3-thaan",
+      "path": "data-dictionary-kh-muul-3-thaan.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "ชื่อตัวแปร",
+            "type": "string"
+          },
+          {
+            "name": "ประเภท",
+            "type": "string"
+          },
+          {
+            "name": "คำอธิบาย",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/f5804870-7dc2-42df-86f3-769d6cc2ae23/resource/51d0dfa8-bd17-4a2d-8035-978ed597510f/download/3bura-_data_dictionary.xlsx",
+          "title": "Data Dictionary ข้อมูล 3 ฐาน"
+        }
+      ],
+      "title": "Data Dictionary ข้อมูล 3 ฐาน"
+    },
+    {
+      "format": "PDF",
+      "name": "kham-thibaaywithiikaaraidmaachuengkh-muul",
+      "path": "kham-thibaaywithiikaaraidmaachuengkh-muul.pdf",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/f5804870-7dc2-42df-86f3-769d6cc2ae23/resource/8bc4ac1d-4a48-441d-8b95-254dd5f669e4/download/meta-data.pdf",
+          "title": "คำอธิบายวิธีการได้มาซึ่งข้อมูล"
+        }
+      ],
+      "title": "คำอธิบายวิธีการได้มาซึ่งข้อมูล"
+    },
+    {
+      "description": "Data Policy and Management",
+      "format": "PDF",
+      "name": "kh-ptibatiainkaarcchadkaarkh-muulbuurnaakaarphuuesiiychiiwitcchaak-ubatiehtuthaangthnn",
+      "path": "kh-ptibatiainkaarcchadkaarkh-muulbuurnaakaarphuuesiiychiiwitcchaak-ubatiehtuthaangthnn.pdf",
+      "sources": [
+        {
+          "path": "https://data.go.th/dataset/f5804870-7dc2-42df-86f3-769d6cc2ae23/resource/d77d4641-7b08-4611-add7-e3b746e1f2dc/download/data-policy-and-management.pdf",
+          "title": "ข้อปฏิบัติในการจัดการข้อมูลบูรณาการผู้เสียชีวิตจากอุบัติเหตุทางถนน"
+        }
+      ],
+      "title": "ข้อปฏิบัติในการจัดการข้อมูลบูรณาการผู้เสียชีวิตจากอุบัติเหตุทางถนน"
+    }
+  ],
+  "title": "ข้อมูลผู้เสียชีวิตจากอุบัติเหตุทางถนน จากระบบบูรณาการข้อมูลการตายจากอุบัติเหตุทางถนน (3 ฐาน)"
+}
