@@ -3,16 +3,17 @@ name = "thai-traffic-deaths"
 version = "0.1.0"
 description = "The data analysis related to traffic deaths in Thailand. The dataset includes various attributes such as the date of the incident, location, vehicle type, and more."
 authors = [
-    {name = "Nutthawoot Promda",email = "npromda@hotmail.com"}
+    {name = "Nutthawoot P.",email = "npromda@hotmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
-    "pandas (>=2.3.1,<3.0.0)",
-    "ydata-profiling (>=4.16.1,<5.0.0)",
-    "ipykernel (>=6.29.5,<7.0.0)",
     "setuptools (>=80.9.0,<81.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)"
+    "pandas (>=2.3.1,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "ipywidgets (>=8.1.7,<9.0.0)",
+    "ydata-profiling (>=4.16.1,<5.0.0)"
 ]
 
 [tool.poetry]
