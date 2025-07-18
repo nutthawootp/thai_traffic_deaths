@@ -20,12 +20,19 @@ The following software and libraries are required to run the analysis:
 
 
 ## 📦 Installation
+### Using Poetry
 The dependencies managed using `poetry`. To set up the environment, ensure you have Poetry installed. If not, you can install it by following the instructions on the [Poetry website](https://python-poetry.org/docs/#installation).  
 
 You can install the required packages by running:
 
 ```bash
 poetry install
+```
+### Using pip
+Alternatively, you can install the required packages listed in `requirement.txt` using pip . Run the following command:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## 📖 Usage
